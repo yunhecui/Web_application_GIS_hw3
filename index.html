@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Sample Library Location Map</title>
+    <meta name="description" content="This is a map showing some sample library location">
+    <meta name="author" content="Yunhe">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+
+  </head>
+
+  <body>
+    <div id="mapContainer"></div>
+    <div id='map' style='width: 800px; height: 800px;'></div>
+
+    <div class='map-overlay top'>
+      <div class = 'map-overlay-inner'>
+        <h2> Sample Library Locations in US</h2>
+        <h4> I randomly select 2000 libraries from the total 17000+ libraries in the US. Data Cleaning and sampling are done with python</h4>
+        <h4> Author: Yunhe Cui, Using Mapboxgl API</h4>
+      </div>
+    </div>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    </script>
+    <script src="js/libraryBio.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+
+</html>
